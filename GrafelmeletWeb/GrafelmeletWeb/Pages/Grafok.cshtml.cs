@@ -47,7 +47,7 @@ namespace GrafelmeletWeb.Pages
             }
 
 
-            StreamReader sr = new StreamReader(@"E:\maildir\listazas\ConsoleApp1\ConsoleApp1\list1.txt");
+            StreamReader sr = new StreamReader(@"C:\Users\tanko\OneDrive\Dokumentumok\harmadev\masodikfelev\netgyakorlat\allamvizsga\GrafelmeletWeb\GrafelmeletWeb\list1.txt");
             int i = 0;
             //string[] persons = new string[5653];
             while (sr.EndOfStream == false && i < 5)
@@ -61,7 +61,7 @@ namespace GrafelmeletWeb.Pages
 
             }
             //elso=persons[0];
-            StreamReader sr2 = new StreamReader(@"E:\maildir\listazas\ConsoleApp1\ConsoleApp1\list2.txt");
+            StreamReader sr2 = new StreamReader(@"C:\Users\tanko\OneDrive\Dokumentumok\harmadev\masodikfelev\netgyakorlat\allamvizsga\GrafelmeletWeb\GrafelmeletWeb\list2.txt");
             int j = 0;
             //string[] persons = new string[5653];
             //int[,] matrix = new int[5653, 5653];
